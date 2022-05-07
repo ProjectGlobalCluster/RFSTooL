@@ -42,6 +42,8 @@ Installation Complete !
 
 # Initialization & Setup The Tools !
 
+cd RFSTooL
+
 bash GenX or ./GenX
 
 Now Ready To Go Brrrr...!!
