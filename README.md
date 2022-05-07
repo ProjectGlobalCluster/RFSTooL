@@ -38,7 +38,7 @@ npm install -g bash-obfuscate
 
 git clone https://github.com/ProjectGlobalCluster/RFSTooL
 
-Installation Complete
+Installation Complete !
 
 # Method For R.F.S Encryption-X
 
