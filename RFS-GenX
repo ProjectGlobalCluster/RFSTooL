@@ -1,0 +1,47 @@
+#!/bin/bash
+# Author - @ProjectGlobalCluster - TerlgramID / Group
+
+dependencies() {
+
+command -v lolcat > /dev/null 2>&1 || { echo >&2 "I require lolcat but it's not installed. Install it. Aborting."; exit 1; }
+
+}
+
+
+b64() {
+
+read -p "What You Wanna Encrypt ? " fName
+read -p "Suggest A Better Name For Encrypted File ! " oName
+
+if [ ! -f "GenX-Input/$oName" ]; then
+if [ -f "GenX-Input/$fName" ]; then
+GenrationX=($(cat GenX-Input/$fName | base64 -w 0))
+echo -e "echo '$GenrationX' | base64 -d | sh" > GenX-Output/$oName
+else
+echo -e "\nWarning: $fName not found!\n"
+exit 0;
+fi
+if [ -f "GenX-Output/$oName" ]; then
+echo -e "\nNow Just Go And Check Out GenX-Output Folder !\n"
+fi
+else
+echo -e "\nError: File $oName already exist!\n"
+exit 0;
+fi
+}
+
+banner() {
+
+printf "
+         Welcome Bosss!!!
+      ____________________________
+     |                            |  
+     |   The R.F.S Encrypter-X2   |
+     |____________________________|        
+                      "
+
+}
+dependencies
+clear
+banner | lolcat
+b64 | lolcat
