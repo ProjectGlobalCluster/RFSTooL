@@ -40,6 +40,12 @@ git clone https://github.com/ProjectGlobalCluster/RFSTooL
 
 Installation Complete !
 
+# Initialization & Setup The Tools !
+
+bash GenX or ./GenX
+
+Now Ready To Go Brrrr...!!
+
 # Method For R.F.S Encryption-X
 
 cd
