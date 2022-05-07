@@ -44,7 +44,7 @@ cd
 
 cd RFSTooL
 
-# Only For R.F.S Encryption-X
+# Method For R.F.S Encryption-X
 
 python2 RFS
 
@@ -52,7 +52,7 @@ Store shell file in data/user/0/com.termux/files/home/RFSTooL
 
 Then choose option [X] for encrypt or choose option [N] to decrypt
 
-# Only For R.F.S Encryption-GenX
+# Method For R.F.S Encryption-GenX
 
 bash RFS2
 
