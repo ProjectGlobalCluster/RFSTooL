@@ -38,15 +38,13 @@ npm install -g bash-obfuscate
 
 git clone https://github.com/ProjectGlobalCluster/RFSTooL
 
-# How To Use ?
+# Method For R.F.S Encryption-X
 
 cd
 
 cd RFSTooL
 
-# Method For R.F.S Encryption-X
-
-python2 RFS
+bash RFS or ./RFS
 
 Store shell file in data/user/0/com.termux/files/home/RFSTooL
 
@@ -54,7 +52,11 @@ Then choose option [X] for encrypt or choose option [N] to decrypt
 
 # Method For R.F.S Encryption-GenX
 
-bash RFS2
+cd
+
+cd RFSTooL
+
+bash RFS2 or ./RFS2
 
 Then Enter The Name Of File You Wanna Encrypt
 
@@ -63,6 +65,8 @@ Then Enter The Output File Name !
 (( Must Give chmod 777 Permission To The Input File Before Using The Tool Otherwise Tools Will Not Work Properly !)))
 
 Enjoy !
+
+# Credited & Author 
 
 All Credit Goes To ProjectGlobalCluster !!
 
@@ -74,4 +78,4 @@ Official Telegram Group -> https://t.me/ProjectGlobalCluster
 Specially For POCO F1 Users !!!
 New Devices Soon...
 
-#SecuredByGenerationX !
+# SecuredByGenerationX !
